@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-image: url(formimages/car\ 4j.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(212, 32, 32);
+    border-radius: 20px;
+    width: 480px;
+    height: 270px;
+
+}
+
+.popup-img{
+    width: 500px;
+    height: 270px;
+}
+
+.popup-img img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.popup .form{
+    width: 100%;
+    height: 270px;
+    background-color:rgba(255, 255, 255, 0.1) ;
+    text-align: center;
+    overflow: hidden;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.popup .form h1{
+    color: white;
+    font-size: 22px;
+    padding-top: 35px;
+}
+
+.popup .form h3{
+    color: brown;
+    font-size: 12px;
+    padding-top: 13px;
+    margin-bottom: 10px;
+}
+
+.popup form input{
+    margin-bottom: 5px;
+    width: 210px;
+    height: 33px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.popup form input::placeholder{
+    padding: 5px;
+    font-size: 12px;
+}
+
+.button{
+    background-color: brown;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 23px;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.button:hover{
+    color:white;
+    background:rgb(129, 9, 9);
+}
+
+.popup form .error,
+.popup form .pass-error{
+    margin: 2px 0 3px;
+    color: rgb(238, 16, 16);
+    font-size: 14px;
+    background: rgba(255, 0, 0, 0.1);
+    text-align: center;
+    border: 1px solid #EF9A9A;
+    padding: 3px 8px;
+    width: 100%;
+    display: none;
+
+}
+
+    
