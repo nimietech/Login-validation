@@ -29,7 +29,7 @@ To run this project locally, follow these steps:
   
       - Username: glory
       
-      - Password: 
+      - Password: nimietech
       
 3. If the credentials are correct, you will be redirected to the home page.
 
